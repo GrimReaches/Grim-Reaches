@@ -21,7 +21,7 @@
 
     header {
       background-color: #111;
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 1rem 1rem;
       text-align: center;
       border-bottom: 2px solid #333;
     }
@@ -31,6 +31,24 @@
       color: #ff3333;
       letter-spacing: 0.15em;
       animation: fadeIn 2s ease-in-out;
+    }
+
+    nav {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #777;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 1rem;
+      font-size: 1rem;
+      transition: color 0.2s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #ff4444;
     }
 
     main {
@@ -131,8 +149,12 @@
 <body>
   <header>
     <h1>GRIM REACHES</h1>
+    <nav>
+      <a href="#main">Главная</a>
+      <a href="#mystery">???</a>
+    </nav>
   </header>
-  <main>
+  <main id="main">
     <section>
       <h2>Добро пожаловать</h2>
       <p>Давайте вернёмся к истокам нашего сервера.</p>
@@ -161,6 +183,14 @@
     <section class="warning">
       <h2>WARNING</h2>
       <p>Прежде чем вы отправитесь туда, крайне важно быть готовым ко всем возможным последствиям. На той стороне присутствует множество опасностей, которые могут исходить не только от игроков и мобов. Важно оставаться внимательным и не привлекать к себе ненужного внимания, так как эти существа могут запомнить вас и начать преследовать. Необходимо учитывать, что этот мир кардинально отличается от привычных, и здесь действуют свои правила.</p>
+    </section>
+
+    <section id="mystery">
+      <h2>???</h2>
+      <p>|•|{${$×®</p>
+      
+      <h3>Thanks youuyu</h3>
+      <p>...</p>
     </section>
   </main>
   <footer>
