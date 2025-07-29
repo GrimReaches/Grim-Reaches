@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://grimreaches.github.io/Grim-Reaches/sitemap.xml
